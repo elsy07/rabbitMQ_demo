@@ -26,3 +26,17 @@ visit this page:
 http://23.21.167.60:8080/hello
 
 app2.py file has all the code required to send messages to rabbitMQ server. files in template folder are using to show and process html form.
+
+4) rabbitMQ management plugin will enable console that helps you understand server activity.
+
+http://23.21.167.60:15672
+
+5) If you need to kill rabbitMQ server, find the process ID using the command:
+
+lsof -i :5672
+
+Or use the following set of commands:
+
+rabbitmqctl stop_app
+rabbitmqctl reset
+rabbitmqctl start_app
