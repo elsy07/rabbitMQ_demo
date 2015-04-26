@@ -12,6 +12,7 @@ It may look like a very simple application that can be easily built using any ot
 root@ip-10-120-6-221:/home/ubuntu/mydownload# python -m SimpleHTTPServer
 
 This will display all the files in the current directory (mydownload in this case)
+
 http://23.21.167.60:8000/
 
 2) communicate with rabbitMQ and get the messages to be processed.
