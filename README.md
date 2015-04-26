@@ -40,5 +40,7 @@ lsof -i :5672
 Or use the following set of commands:
 
 rabbitmqctl stop_app
+
 rabbitmqctl reset
+
 rabbitmqctl start_app
