@@ -24,6 +24,7 @@ root@ip-10-120-6-221:/home/ubuntu/mydownload# python receive3.py
 root@ip-10-120-6-221:/var/www/html/new_email360_panel# python app2.py
 
 visit this page:
+
 http://23.21.167.60:8080/hello
 
 app2.py file has all the code required to send messages to rabbitMQ server. files in template folder are using to show and process html form.
