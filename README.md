@@ -44,3 +44,5 @@ rabbitmqctl stop_app
 rabbitmqctl reset
 
 rabbitmqctl start_app
+
+6) run the shell script "download.sh" several times to increase the traffic to be handled by rabbitMQ
